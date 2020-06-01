@@ -74,4 +74,6 @@ public class MainActivity extends AppCompatActivity {
     public void TambahData(View view) {
         startActivity(new Intent(MainActivity.this, InsertActivity.class));
     }
+
+
 }
