@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/txt_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:ignore="Autofill"
+            android:hint="NIM"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/txt_nama"
+            android:layout_below="@+id/txt_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:ignore="Autofill"
+            android:hint="Nama"/>
+
+        <EditText
+            android:id="@+id/txt_kelas"
+            android:layout_below="@+id/txt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:ignore="Autofill"
+            android:hint="Kelas"/>
+
+        <EditText
+            android:id="@+id/txt_prodi"
+            android:layout_below="@+id/txt_kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:ignore="Autofill"
+            android:hint="Prodi"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_below="@+id/txt_prodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Tambah"
+            android:textSize="20dp"
+            android:onClick="SubmitData"/>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
