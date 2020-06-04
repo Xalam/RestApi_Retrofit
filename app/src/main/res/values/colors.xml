@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorLightGrey">#B9B9B9</color>
+    <color name="colorWhite">#FFFFFF</color>
+<!--    Color Fragment-->
+    <color name="homeFragment">#00093C</color>
+    <color name="historyFragment">#2196F3</color>
+    <color name="notifFragment">#4CAF50</color>
+    <color name="profileFragment">#FF5722</color>
+
 </resources>
